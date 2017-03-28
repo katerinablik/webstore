@@ -1,0 +1,195 @@
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+html,
+body {
+  overflow-x: hidden;
+    background:#fff;
+	font-size: 100%;
+	font-family:'Oxygen-Regular';
+    padding-top: 30px;
+    width: 100%;
+    height: 700px;
+    display: block;
+}
+@font-face{
+	font-family:'Oxygen-Regular';
+	src:url(fonts/MuseoSansLight.ttf) format('truetype');
+}
+@font-face{
+	font-family:'Oxygen-Bold';
+	src:url(fonts/Oxygen-Regular.ttf) format('truetype');
+}
+
+/*--header--*/
+logo {
+    text-align: center;
+    position: absolute;
+    top: 0%;
+}
+
+.form-control{
+  margin-bottom: 3px;
+}
+
+.background {
+  background-image: url(images/ba11.jpg);
+  width: 100%;
+  display: block;
+  overflow-x:hidden;
+}
+
+header-top {
+    background-color: #2E2E2E;
+	padding: 0.3em 0;
+}
+
+#details{
+  margin-bottom: 12px;
+}
+
+#bar1{
+    color: text-decoration: underline;;
+    font-size: 18px;
+    font-family: 'Oxygen-Regular';
+    }
+#title {
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    font-family: 'Oxygen-Bold';
+    }
+#title3 {
+    color: black;
+    font-size: 30px;
+    font-family: 'Oxygen-Bold';
+    }
+#title4 {
+    color: #538886;
+    font-size: 14px;
+    font-family: 'Oxygen-Bold';
+    }
+#title5 {
+    color: black;
+    font-size: 70px;
+    font-family: 'Oxygen-Bold';
+        margin-top: 0px;
+    margin-bottom: 0px;
+    }
+#title6 {
+    color: darkgray;
+    font-size: 40px;
+    font-family: 'Oxygen-Bold';
+        margin-top: 0px;
+    margin-bottom: 0px;
+    }
+#title7 {
+    color: darkgray;
+    font-size: 40px;
+    font-family: 'Oxygen-Bold';
+        margin-top: 30px;
+    margin-bottom: 0px;
+    }
+#text
+{
+    z-index:100;
+    position:absolute;
+    color:white;
+    font-size:24px;
+    font-weight:bold;
+    left:150px;
+    top:350px;
+}
+/*-- #title1{
+    background-color: aqua;
+} --*/
+.navbar {
+    float: left;
+    margin: center;
+    line-height: 40px;
+}
+.navbar {
+    height: 70px;
+    text-align: center;
+}
+#button1:hover {
+    background-color: #538886;
+    }
+#button1 {
+    background-color: black;
+    color: gainsboro;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: ;
+    cursor: pointer;
+    user-select: none;
+    user-select: none;
+    user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 0px;
+}
+
+
+div#bs-megadropdown-tabs {
+    padding: 0;
+}
+
+footer {
+  padding: 30px 0;
+}
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+  }
+
+  .row-offcanvas-right {
+    right: 0;
+  }
+
+  .row-offcanvas-left {
+    left: 0;
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 10%; /* 6 columns */
+  }
+}
