@@ -3,7 +3,7 @@ var mongoose = require('mongoose');
 var orderModel = require('../models/order.js');
 
 // create connection to mongodb to the orders collection
-mongoose.connect('mongodb://localhost/orders');
+mongoose.connect('mongodb://Katerinablik:vjikvjik100@ds143900.mlab.com:43900/webstore');
 var db = mongoose.connection;
 // check is connection was successfull or an error occured
 db.on('error', console.error.bind(console, 'connection error:'));
